@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/blackg"
+    tools:context=".Home">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:src="@drawable/baseline_arrow_circle_left_24"
+        app:tint="@color/black"></ImageView>
+
+    <TextView
+        android:id="@+id/Singup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:textSize="35dp"
+        android:textStyle="bold"></TextView>
+
+    <EditText
+        android:id="@+id/User"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Singup"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="20dp"
+        android:hint="Username"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"></EditText>
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/User"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="20dp"
+        android:hint="Email"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"></EditText>
+
+    <EditText
+        android:id="@+id/Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Email"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:hint="Passworld"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"></EditText>
+
+    <EditText
+        android:id="@+id/Pass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Pass"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#30ffffff"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="20dp"
+        android:hint="Re-Passworld"
+        android:inputType="textPassword"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"></EditText>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/Si"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Pass1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="#338046"
+        android:text="Register"
+        android:textSize="20dp"></com.google.android.material.button.MaterialButton>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ></LinearLayout>
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginTop="577dp"
+        android:layout_marginEnd="138dp"
+        android:layout_marginBottom="98dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Button"
+        android:textSize="1sp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-17dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="343dp"
+        android:layout_marginBottom="670dp"
+        android:backgroundTint="#00FFFFFF"
+        android:text="Button"
+        android:textSize="1sp" />
+
+</RelativeLayout>
